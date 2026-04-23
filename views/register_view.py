@@ -22,14 +22,14 @@ class RegisterView:
         # 2. Campos de entrada de datos
         input_nombre = ft.TextField(
             label="Nombre Completo",
-            prefix_icon=ft.icons.PERSON_OUTLINE,
+            prefix_icon=ft.Icons.PERSON_OUTLINE,
             border_color=ft.Colors.BLUE_400,
             hint_text="Ej. Ana Rodríguez"
         )
 
         input_correo = ft.TextField(
             label="Correo Electrónico",
-            prefix_icon=ft.icons.EMAIL_OUTLINED,
+            prefix_icon=ft.Icons.EMAIL_OUTLINED,
             border_color=ft.Colors.BLUE_400,
             keyboard_type=ft.KeyboardType.EMAIL,
             hint_text="ejemplo@correo.com"
@@ -37,7 +37,7 @@ class RegisterView:
 
         input_edad = ft.TextField(
             label="Edad",
-            prefix_icon=ft.icons.CAKE_OUTLINED,
+            prefix_icon=ft.Icons.CAKE_OUTLINED,
             border_color=ft.Colors.BLUE_400,
             keyboard_type=ft.KeyboardType.NUMBER,
             width=150 # La edad no necesita tanto espacio
